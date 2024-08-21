@@ -1,0 +1,91 @@
+*{
+
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+font: 1em sans-serif;
+font-style: italic;
+font-weight: bold;
+background-color: rgb(255, 255, 255);
+}
+
+.image{
+    
+    background-size:contain;
+    height: 30vh;
+    display: flex;
+background-image: url(https://www.shutterstock.com/shutterstock/photos/1190457109/display_1500/stock-photo-happy-young-diverse-volunteers-preparing-for-work-join-hands-in-park-volunteering-and-1190457109.jpg);
+}
+    
+
+
+nav, #header {
+   
+    
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEhAQEhAPEBAPDw8PDw8PDw8NDw8PFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQFy0dHR0tLS0tLS0tLS0rLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLSs3NzctKzc3LTctKystK//AABEIAL4BCgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUH/8QAKBABAQEBAAICAgICAQUBAAAAAAECEQMhEjETQVFhgZGxccHR8PEE/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQIAAwX/xAAbEQEBAQEAAwEAAAAAAAAAAAAAARECEiFBMf/aAAwDAQACEQMRAD8A+i+LN/y7sZ/tLHi46cY69Hvp5vHJczt4bXFfhz6S/Df25a65W+f6Lu9P+GtPEdgyo/ElxHRuWI3xX7VKmxz7xI2d8HypfL06z3HL8NrfbT5qGc1fxZN9NKTyZtHEsv06ZA8n11Hl8V4/Ud33J3iW57/mDvoTNXPSKVPX/wBX+JNxUosTzPbomeEx41sQdU8xTxR1ZiHiXlcOnfk9J0fknj7RIq1WDwOCC3G1lg3rjH0ifpLS3S81zU3pL5dbXSyGQWm50fxX+Qg/K/yfbejZwtgFMZc7V8xTOaYZfRNuX67Gs4Hxn2l86c4NlC4DnDfLietdMTcc/nxK5d4769enbvP+i78XHbnrHHrnXPjwqYwbV5Gz2m21pIWZv7T3/ToubXPZ7bkdRMcxpPs8WmFs/RbP0ewcxtYnBtPZ+y6Gsv4uKTiXgsG3252e3Sfi0HntGbPnyDKqWKyktC0OiRrTdT3RtR3pUgtbe2lnP7JrfSTye+L8XPXV49z9lv2nm9PIMxW6fUKaX0UNVfktiub/AIG6sTYqXHVNB+RDHk6157T4q8z/AC9q6cNqudm8idKeS8LnyRPyXqcVOfSb17d3qh5PKljcHVR4r8ku9v8AB86/QSRvpSVLXP5L7dEyl5M/bctUNwMwaWenWOdNIXV9tdE20gpruF6SllXifJ1YivHLjX06Zpz6jpzQvpKbPuo2mQWuiav2PzQ/J/ZdeT9DxbydF0jvXSfmaVU5wXrR6jvXvqlqNi5EdU+PIvjdceXb4L6Hcbi6pJa3xv8AJs6kgf4cnbBNniXy/sM3v39Ng1Se/wDoPz457ZOtnydPiPJehErf4UlbDo/L/bX2Td6E7P22DVsKziWFJEV0jdDVNLC2Bj5rfHrdUwKqObeEtR2bkS8kVz0m8uaQLhXQcXqMQ1niX+P/AAv5cUmZVyos9tiGu6pnJN5G7TmDdekN6POk0qRNoSBv2pmBYdbEdZ4ea9f8m1CT0f1P41rdBiw5x+3RmxLB4i+1RTY/kJ0E4rSzX6UiWJ/KvTREPJ3o5nPZ9Z/YcOpwJv2vjbm0M01mtLjp1ZC5nQm1eRF9Ok9qYhi5rVzWNoykh85amGlhs1KxoMOn1pO32f6LbGgpbkPQ6vUlyJpr7T4aVuGBg4YLGYuiXKvwN8TozUeF4rcidGOfUT+K2k6uJsLwfiaGkOtjZhpAhpEUtYBytCnmRTsiOafUNTDZhuB8lMVNVELPX2nF7+yzCpU2Nm/Tpx7cjp8OpPSeormqyCEoXTk6KYyrxHx6dET0uI7iXFvKl7MTSatrcNKbitTichVC6LYVmGwhpBkGehgLcC0WBIW06elRNT77Zh+K0J3Iw1huNrYR0eGIWK4o6VFtYlc9kU1pL4p5PSPjhqGIOq6uc/C60fOkNU+Y1gnXtWG8muc5UZR6MOjidWyllbCejBuRxT64GM9Rrpns2YpnfrjTITKKuNPs3l1/RdFumxtNJ6TtH8n6SulSJtPKWtKxAQ9g/EeDWwsho3D/AAFpkJYWKWJ8MasTcP0KRUpD8ah1SfxrljtYNOIbLK26n83SRFq+NKfOObGof5RN5Mqc16JrR5BzlaPdTk9rSBw0gtMheNw9hWODKbASHkTSc2KWMhUdHQuuIytrSfFXkpql6T8hbtUg1XXu9Jst8g49tmDRjWjYXsZjy9VkQyvhNVyMh2ZKyaSsPup6VEUtpfkJbVxFo9LrRNUvyVIm1ea79jrSWB1oYqVz/wD6NIzf+1vJL/hC4kducxw6/TzRuoY1/J+qsErrmWkVoOGu+FmTSGkGwacSrTJuG4dAGaZHidOAIyCNOEuy3XR3ktzfpUwXQsbJ8jY2thb7PE8w3RWh6S5PB3QSym6XM4PyamK42a6Q6aVOHTbJprS3ZkFpbpOm0FjpEUidXkLc8VKmwMtTzJQUfIjrrosS1Y6Rz6QmT/G/wGYv+Wf0q2pkdFo5DUpsODuMPwJBlTVRrGmTGg04EjCIJWaltZg3S5o2B9KR9MBbotpxrW0UWUlTFHVJinqPpahfroeTfSavqfwZDaOL2rWI4s7/AIPbP5atAtAvTxgMawZBsGnCDwfi0ja2JXsDMdF8XS/hPlG8ajrPXN5c/wCndcpfjVz0jrl53k6M1/77dXl8aP4/7rtOpY5Xmx6FCk3Rw4Y76pk0g8aVCxggHWLdNKSxpWB6WCFDDYWntJTGqWghpGzFoKx/iWxtbAg3ZRYNM9HN/X2EHjM2vtSY9F4a3n0KqEk5f7Xnj/YZnVsVHVVzyWYNcNTRGrwnwGYhwbWwOE1FOJ6hjUnwTueK3XEvl1c1FxGp2LbnEnWOVX8mOxOY46sXpN5/TnOvjpefrYvR6XHo2h9PwQoda1mEta1pSDyjwmTglsA1LxmDgSGsFhhbApwkLYXOP9Nc8/7DPs+o2tIlxpKeT2Nja2EbgwW0YXK/jiEqudCnldgzRc3Q0BpDcBbOS7ycloLl8uaj8a77EdYdeenLrlD4fzUa7tY9IXxxXPQvL//Z)
+}
+nav, #header, ul{
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    justify-content: end;
+    float: right;
+    word-spacing: normal;
+    overflow: hidden;
+}
+
+ul li a {
+    color: rgb(63, 2, 205);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+ul li a:hover{
+    color: rgb(249, 225, 8);
+}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+img{
+    width: 80%;
+    height: 40%;
+    display: block;
+    margin: 50px auto;
+}
+
+.contact, p2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: inline-flex;
+    letter-spacing: normal;
+    word-spacing: normal;
+    padding: 10px;
+    margin-left: 13px;
+}
+
+.svg{
+    width: 50%;
+    height: 0;
+    margin-left: 390px;
+    margin-right: 0px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.svg :hover{
+   color: #ffea00;
+}
